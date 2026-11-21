@@ -1,0 +1,15 @@
+[package]
+name = "tpplc"
+version = "0.1.0"
+edition = "2024"
+description = "Discover and manage supported HomePlug AV powerline adapters"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/joshjcarrier/tpplc"
+keywords = ["homeplug", "powerline", "networking"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+pnet_datalink = "0.35"
